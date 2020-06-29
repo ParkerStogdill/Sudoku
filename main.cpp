@@ -333,9 +333,9 @@ int main() {
     */
     
 
-    gameboard Final_Solution(sudoku);
-    Final_Solution.solve();
-    Final_Solution.print(output);
+    gameboard Solution(sudoku);
+    Solution.solve();
+    Solution.print(output);
 
     board.close();
     output.close();
